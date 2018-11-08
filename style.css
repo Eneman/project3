@@ -1,0 +1,16 @@
+.map
+{
+    height: 400px;
+    width: 50%;
+}
+
+.content
+{
+    display: flex;
+}
+
+.slider
+{
+    height: 400px;
+    width: 100%;
+}
