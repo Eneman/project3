@@ -1,7 +1,8 @@
 .map
 {
-    height: 400px;
-    width: 50%;
+    height: 600px;
+    width: 68%;
+    margin-right: 2%;
 }
 
 .content
@@ -11,6 +12,21 @@
 
 .slider
 {
-    height: 400px;
+    height: 500px;
     width: 100%;
+    margin-bottom: 15px;
+}
+
+.popup
+{
+    width: 30%;
+}
+
+
+.slide
+{
+    height: 500px;
+    width: 100%;
+    list-style-type: none;
+    background-size: contain;
 }
