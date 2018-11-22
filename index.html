@@ -17,17 +17,25 @@
 
         <div class="popup">
             <h2>Reservation</h2>
-            <form action="">
+            <form id="reservation" action="">
                 <p id="pName">Station : <span></span></p>
                 <p id="pStatus">Etat : <span></span></p>
                 <p id="pBikeStands">Nombre d'emplacements : <span></span></p>
                 <p id="pBikes">Nombre de vélos disponibles : <span></span></p>
                 <p id="pEmptyStands">Nombre d'emplacements libres : <span></span></p>
                 <p id="pBikeReserved">Vélo déjà reservé : <span></span></p>
-                <input type="text">
-                <input type="text">
+                <label for="lastNameInput">Nom</label>
+                <input type="text" name="lastNameInput">
+                <br>
+                <label for="firstNameInput">Prenom</label>
+                <input type="text" name="firstNameInput">
+                <button>Reserver</button>
             </form>
         </div>
+    </section>
+    <section id="sectionTimer">
+        Vous avez actuellement un velo de reservé a la station : <span id="spanTimerLoc"></span> pendant encore
+        <span id="spanTimer"></span> secondes
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>

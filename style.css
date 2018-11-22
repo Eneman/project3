@@ -30,3 +30,8 @@
     list-style-type: none;
     background-size: contain;
 }
+
+button
+{
+    display: block;
+}
